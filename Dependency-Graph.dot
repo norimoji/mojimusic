@@ -1,0 +1,9 @@
+digraph injector {
+graph [rankdir=TB];
+x3 [margin="0.02,0", shape=box, style=solid, label=<<table cellspacing="0" cellpadding="5" cellborder="0" border="0"><tr><td align="left" port="header" bgcolor="#000000"><font color="#ffffff">ShortNameFactory<br align="left"/></font></td></tr><tr><td align="left" port="m_c8ddc82b">&lt;init&gt;</td></tr></table>>]
+x0 [margin="0.02,0", shape=box, style=dashed, label=<<table cellspacing="0" cellpadding="5" cellborder="0" border="0"><tr><td align="left" port="header" bgcolor="#ffffff"><font color="#000000" point-size="10">@Graphviz<br align="left"/></font><font color="#000000">PortIdFactory<br align="left"/></font></td></tr></table>>]
+x1 [margin="0.02,0", shape=box, style=solid, label=<<table cellspacing="0" cellpadding="5" cellborder="0" border="0"><tr><td align="left" port="header" bgcolor="#000000"><font color="#ffffff">PortIdFactoryImpl<br align="left"/></font></td></tr><tr><td align="left" port="m_cb4ba0a1">&lt;init&gt;</td></tr></table>>]
+x2 [margin="0.02,0", shape=box, style=dashed, label=<<table cellspacing="0" cellpadding="5" cellborder="0" border="0"><tr><td align="left" port="header" bgcolor="#ffffff"><font color="#000000" point-size="10">@Graphviz<br align="left"/></font><font color="#000000">NameFactory<br align="left"/></font></td></tr></table>>]
+x0 -> x1 [style=dashed, arrowhead=onormal, arrowtail=none]
+x2 -> x3 [style=dashed, arrowhead=onormal, arrowtail=none]
+}
